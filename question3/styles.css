@@ -1,0 +1,82 @@
+/* Custom color palette */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FF9800;
+    --background-color: #f4f4f9;
+    --input-background: #e0f7fa;
+    --input-border: #00695c;
+    --button-color: #009688;
+    --button-text-color: white;
+    --section-background: #ffffff;
+}
+
+/* Basic form styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.styled-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.styled-form h2 {
+    color: var(--primary-color);
+}
+
+.styled-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: var(--secondary-color);
+}
+
+.styled-form input,
+.styled-form textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    background-color: var(--input-background);
+}
+
+.styled-form input[type="checkbox"] {
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+.styled-form button {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.styled-form button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Styling form sections */
+.form-section {
+    background-color: var(--section-background);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Opacity applied to preferences section */
+#preferences {
+    opacity: 0.8;
+}

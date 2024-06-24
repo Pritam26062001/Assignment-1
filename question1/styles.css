@@ -1,0 +1,22 @@
+/* External CSS for all boxes */
+.box {
+    font-family: Arial, sans-serif;
+}
+
+/* External CSS for box1 */
+#box1 {
+    background-color: pink;
+    color: purple;
+}
+
+/* External CSS for box2 */
+#box2 {
+    background-color: beige;
+    color: brown;
+}
+
+/* External CSS for box3 */
+#box3 {
+    background-color: lightgray;
+    color: black;
+}
